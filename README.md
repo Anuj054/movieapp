@@ -38,8 +38,7 @@
         <ol>
             <li>Clone the repository:
                 <pre><code>git clone https://github.com/Anuj054/movieapp.git
-
-cd movieApp</code></pre>
+                cd movieApp</code></pre>
             </li>
             <li>Install dependencies:
                 <pre><code>npm install</code></pre>
