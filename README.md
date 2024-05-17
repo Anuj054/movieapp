@@ -60,17 +60,14 @@
             <pre><code>movieApp/
 ├── public/
 │   ├── index.html
-│   └── ...
 ├── src/
-│   ├── components/
-│   │   ├── MovieCard.js
-│   │   ├── MovieList.js
-│   │   ├── SearchBar.js
-│   │   └── ...
+│   ├── App.css
 │   ├── App.js
 │   ├── index.js
-│   └── ...
-├── .env
+│   ├── MovieCard.jsx
+│   └── search.svg
+├── gitignore
+├── package-lock.json
 ├── package.json
 └── README.md</code></pre>
         </div>
@@ -85,5 +82,5 @@
             <li>Open a pull request.</li>
         </ol>
 
- <
+ 
      
