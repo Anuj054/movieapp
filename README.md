@@ -7,7 +7,7 @@
     
 </head>
 <body>
-    <h1>Weather Forecast App</h1>
+    <h1>MOVIE APP</h1>
 
 <h2>Description</h2>
 <p>MovieApp is a web application designed to display information about movies, including their titles, posters, and ratings. The app fetches data from a movie database API and presents it in a user-friendly interface.
