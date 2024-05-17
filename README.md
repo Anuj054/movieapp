@@ -23,8 +23,8 @@
  <h2>Tech Stack</h2>
         <ul>
             <li><strong>Frontend</strong>: HTML, CSS, JavaScript, React</li>
-            <li><strong>Backend</strong>: Node.js, Express</li>
-            <li><strong>API</strong>: <a href="https://www.omdbapi.com/apikey.aspx" target="_blank">The Movie Database (OMDb) API</a></li>
+       
+<li><strong>API</strong>: <a href="https://www.omdbapi.com/apikey.aspx" target="_blank">The Movie Database (OMDb) API</a></li>
         </ul>
 
 <h2>Installation</h2>
@@ -43,21 +43,13 @@
             <li>Install dependencies:
                 <pre><code>npm install</code></pre>
             </li>
-            <li>Set up environment variables:
-                <ul>
-                    <li>Create a <code>.env</code> file in the root directory.</li>
-                    <li>Add your TMDb API key to the <code>.env</code> file:
-                        <pre><code>REACT_APP_TMDB_API_KEY=your_omdb_api_key</code></pre>
-                    </li>
-                </ul>
-            </li>
-            <li>Start the development server:
+            
+ <li>Start the development server:
                 <pre><code>npm start</code></pre>
             </li>
             <li>Open your browser and navigate to <code>http://localhost:3000</code>.</li>
         </ol>
 
- <h2>Usage</h2>
         <ul>
             <li><strong>Browse Movies</strong>: On the homepage, a list of popular movies will be displayed. Each movie entry includes the title, poster, and rating.</li>
             <li><strong>Search Movies</strong>: Use the search bar at the top of the page to find movies by title. Results will update as you type.</li>
