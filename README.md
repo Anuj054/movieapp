@@ -24,7 +24,7 @@
         <ul>
             <li><strong>Frontend</strong>: HTML, CSS, JavaScript, React</li>
             <li><strong>Backend</strong>: Node.js, Express</li>
-            <li><strong>API</strong>: <a href="https://www.themoviedb.org/documentation/api" target="_blank">The Movie Database (OMDb) API</a></li>
+            <li><strong>API</strong>: <a href="https://www.omdbapi.com/apikey.aspx" target="_blank">The Movie Database (OMDb) API</a></li>
         </ul>
 
 <h2>Installation</h2>
