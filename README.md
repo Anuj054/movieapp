@@ -39,7 +39,7 @@
 
 <h2>Setup Instructions</h2>
     
-    <h5>Step 1: Clone the repository:
+ <h5>Step 1: Clone the repository:
     <br>
     git clone https://github.com/Anuj054/movieapp.git
 cd movieApp
