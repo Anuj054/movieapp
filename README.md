@@ -32,15 +32,22 @@
  </ul>
  <h2>Installation</h2>
   <h4>Prerequisites</h4>
-  
+  <ul>
+  <li>npm (version 6 or higher)</li>
+  </ul>
+
 
 <h2>Setup Instructions</h2>
-    <ol>
-        <li>Clone the repository to your local machine.</li>
-        <li>Obtain an API key from your chosen weather API provider.</li>
-        <li>Replace the placeholder API key in the code with your actual API key.</li>
-        <li>Open the <code>index.html</code> file in a web browser to run the application.</li>
-    </ol>
+    
+    <h5>Step 1: Clone the repository:
+    <br>
+    git clone https://github.com/Anuj054/movieapp.git
+cd movieApp
+</h5>
+        
+        
+        
+    
 
 <h2>Usage</h2>
     <ol>
