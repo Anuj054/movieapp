@@ -16,18 +16,23 @@
 
  <h2>Features</h2>
     <ul>
-        <li><h5>Movie Listings</h5> Displays a list of movies with their titles, posters, and ratings.</li>
-        <li>Forecast display for the next few days</li>
-        <li>Search functionality for location-based weather information</li>
+        <li>Movie Listings: Displays a list of movies with their titles, posters, and ratings.</li>
+        <li>Search Functionality: Allows users to search for movies by title./li>
+        <li>Responsive Design: Optimized for both desktop and mobile devices.</li>
     </ul>
 
 <h2>Technologies Used</h2>
     <ul>
-        <li>JavaScript</li>
-        <li>HTML</li>
+        <li> HTML</li>
         <li>CSS</li>
-        <li>External Weather API (e.g., OpenWeatherMap, Weatherstack,RapidAPI etc.)</li>
-    </ul>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>API: The Movie Database (OMDb) API</li>
+        
+ </ul>
+ <h2>Installation</h2>
+  <h4>Prerequisites</h4>
+  
 
 <h2>Setup Instructions</h2>
     <ol>
