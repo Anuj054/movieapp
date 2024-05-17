@@ -39,11 +39,12 @@
 
 <h2>Setup Instructions</h2>
     
- <h5>Step 1: Clone the repository:
-    <br>
-    git clone https://github.com/Anuj054/movieapp.git
-cd movieApp
-</h5>
+ <h4>Step 1: Clone the repository:
+</h4><h3>  git clone https://github.com/Anuj054/movieapp.git
+cd movieApp</h3>
+
+
+<h5>Step 2: Install dependencies:</h5>
         
         
         
