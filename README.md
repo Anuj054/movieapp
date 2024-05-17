@@ -81,7 +81,7 @@
             <li>Push to the branch (<code>git push origin feature/your-feature</code>).</li>
             <li>Open a pull request.</li>
         </ol>
- <img src="/Users/anujchaudhary/Desktop/movieapp/src/Screenshot 2024-05-17 at 4.00.31 PM.png">
+ <img href="/Users/anujchaudhary/Desktop/movieapp/src/Screenshot 2024-05-17 at 4.00.31 PM.png">
 
  </body>
      
