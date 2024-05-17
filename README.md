@@ -4,50 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieApp README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        pre {
-            background: #333;
-            color: #fff;
-            padding: 10px;
-            overflow: auto;
-        }
-        code {
-            background: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        .project-structure {
-            background: #f4f4f4;
-            padding: 10px;
-            margin: 10px 0;
-            white-space: pre;
-        }
-    </style>
+   
 </head>
 <body>
     <div class="container">
-        <h1>MovieApp README</h1>
+        <h1>MovieApp </h1>
 
  <h2>Overview</h2>
         <p>MovieApp is a web application designed to display information about movies, including their titles, posters, and ratings. The app fetches data from a movie database API and presents it in a user-friendly interface.</p>
@@ -77,7 +38,7 @@
         <ol>
             <li>Clone the repository:
                 <pre><code>git clone https://github.com/Anuj054/movieapp.git
-                
+
 cd movieApp</code></pre>
             </li>
             <li>Install dependencies:
