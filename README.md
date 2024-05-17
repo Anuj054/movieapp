@@ -1,70 +1,137 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>MovieApp README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        pre {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            overflow: auto;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .project-structure {
+            background: #f4f4f4;
+            padding: 10px;
+            margin: 10px 0;
+            white-space: pre;
+        }
+    </style>
 </head>
 <body>
-    <h1>MOVIE APP</h1>
+    <div class="container">
+        <h1>MovieApp README</h1>
 
-<h2>Description</h2>
-<p>MovieApp is a web application designed to display information about movies, including their titles, posters, and ratings. The app fetches data from a movie database API and presents it in a user-friendly interface.
-
-</p>
+ <h2>Overview</h2>
+        <p>MovieApp is a web application designed to display information about movies, including their titles, posters, and ratings. The app fetches data from a movie database API and presents it in a user-friendly interface.</p>
 
  <h2>Features</h2>
-    <ul>
-        <li>Movie Listings: Displays a list of movies with their titles, posters, and ratings.</li>
-        <li>Search Functionality: Allows users to search for movies by title./li>
-        <li>Responsive Design: Optimized for both desktop and mobile devices.</li>
-    </ul>
+        <ul>
+            <li><strong>Movie Listings</strong>: Displays a list of movies with their titles, posters, and ratings.</li>
+            <li><strong>Search Functionality</strong>: Allows users to search for movies by title.</li>
+            <li><strong>Responsive Design</strong>: Optimized for both desktop and mobile devices.</li>
+        </ul>
 
-<h2>Technologies Used</h2>
-    <ul>
-        <li> HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>React</li>
-        <li>API: The Movie Database (OMDb) API</li>
-        
- </ul>
- <h2>Installation</h2>
-  <h4>Prerequisites</h4>
-  <ul>
-  <li>npm (version 6 or higher)</li>
-  </ul>
+ <h2>Tech Stack</h2>
+        <ul>
+            <li><strong>Frontend</strong>: HTML, CSS, JavaScript, React</li>
+            <li><strong>Backend</strong>: Node.js, Express</li>
+            <li><strong>API</strong>: <a href="https://www.themoviedb.org/documentation/api" target="_blank">The Movie Database (OMDb) API</a></li>
+        </ul>
 
+<h2>Installation</h2>
 
-<h2>Setup Instructions</h2>
-    
- <h4>Step 1: Clone the repository:
-</h4><h3>  git clone https://github.com/Anuj054/movieapp.git
-cd movieApp</h3>
+ <h3>Prerequisites</h3>
+        <ul>
+            <li>Node.js (version 14 or higher)</li>
+            <li>npm (version 6 or higher)</li>
+        </ul>
+        <h3>Steps</h3>
+        <ol>
+            <li>Clone the repository:
+                <pre><code>git clone https://github.com/Anuj054/movieapp.git
+                
+cd movieApp</code></pre>
+            </li>
+            <li>Install dependencies:
+                <pre><code>npm install</code></pre>
+            </li>
+            <li>Set up environment variables:
+                <ul>
+                    <li>Create a <code>.env</code> file in the root directory.</li>
+                    <li>Add your TMDb API key to the <code>.env</code> file:
+                        <pre><code>REACT_APP_TMDB_API_KEY=your_omdb_api_key</code></pre>
+                    </li>
+                </ul>
+            </li>
+            <li>Start the development server:
+                <pre><code>npm start</code></pre>
+            </li>
+            <li>Open your browser and navigate to <code>http://localhost:3000</code>.</li>
+        </ol>
 
+ <h2>Usage</h2>
+        <ul>
+            <li><strong>Browse Movies</strong>: On the homepage, a list of popular movies will be displayed. Each movie entry includes the title, poster, and rating.</li>
+            <li><strong>Search Movies</strong>: Use the search bar at the top of the page to find movies by title. Results will update as you type.</li>
+        </ul>
 
-<h5>Step 2: Install dependencies:</h5>
-        
-        
-        
-    
+ <h2>Project Structure</h2>
+        <div class="project-structure">
+            <pre><code>movieApp/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── MovieCard.js
+│   │   ├── MovieList.js
+│   │   ├── SearchBar.js
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .env
+├── package.json
+└── README.md</code></pre>
+        </div>
 
-<h2>Usage</h2>
-    <ol>
-        <li>Enter the name of the location you want to get weather information for in the search bar.</li>
-        <li>Press the search button or hit Enter.</li>
-        <li>The current weather and forecast for the location will be displayed.</li>
-    </ol>
+ <h2>Contributing</h2>
+        <p>We welcome contributions! Please follow these steps:</p>
+        <ol>
+            <li>Fork the repository.</li>
+            <li>Create a new branch (<code>git checkout -b feature/your-feature</code>).</li>
+            <li>Commit your changes (<code>git commit -m 'Add your feature'</code>).</li>
+            <li>Push to the branch (<code>git push origin feature/your-feature</code>).</li>
+            <li>Open a pull request.</li>
+        </ol>
 
-<h2>Credits</h2>
-    <p>Anuj054</p>
-
-
-
- <h2>Demo</h2>
-    <p><img src="./Weather/2.png"></p>
-</body>
-</html>
-
-    
+ <
+     
