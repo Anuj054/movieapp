@@ -50,7 +50,7 @@
             <li>Open your browser and navigate to <code>http://localhost:3000</code>.</li>
         </ol>
 
-        <ul>
+<ul>
             <li><strong>Browse Movies</strong>: On the homepage, a list of popular movies will be displayed. Each movie entry includes the title, poster, and rating.</li>
             <li><strong>Search Movies</strong>: Use the search bar at the top of the page to find movies by title. Results will update as you type.</li>
         </ul>
